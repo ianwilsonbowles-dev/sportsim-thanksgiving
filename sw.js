@@ -1,4 +1,4 @@
-const CACHE = 'sportsim-thanksgiving-a6918339825b';
+const CACHE = 'sportsim-thanksgiving-7fa1cb638d37';
 const SHELL = ['./', 'index.html', 'manifest.webmanifest', 'icon-192.png', 'icon-512.png', 'apple-touch-icon.png'];
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(SHELL)).then(() => self.skipWaiting()));
